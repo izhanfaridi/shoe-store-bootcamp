@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(241, 236, 236);
+}
 .navbar{
     background-color: black;
     color: white;
@@ -34,11 +37,107 @@
 
 .title{
     text-align: center;
+    position: relative;
+    top: 180px;
 }
 
 .browse{
     margin:0;
+    width: 180px;
+    height: 70px;
+    background-color: #070707;
+    border: none;
+    border-radius:20px;
     position: relative;
-    top:50%;
-    left:45%;
+    top:200px;
+    left:43%;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1.4em;
 }
+
+.browse .buttonIcon{
+    margin-left: 5px;
+    margin-right: 10px;
+    width: 40px;
+    height: 15px;
+}
+
+
+
+.browse:hover{
+    image-orientation: none;
+    background-color:rgb(37, 37, 37) ;
+}
+
+
+
+.productTitle{
+    text-align:center;
+}
+
+.productLink{
+    text-decoration:none;
+}
+
+.cardContainer{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.card{
+    margin-left:63px ;
+    margin-bottom: 50px;
+}
+
+.card:hover{
+    border: solid 2px black;
+    margin: -2px -2px 48px 61px;
+}
+.detailsDiv, .detailsTitle, .detailsDesc, .detailsPrice, .orderButton{
+    margin-left: 10px;
+}
+.detailsImg{
+    width: 400px;
+    height: 375px;
+    border-radius: 15px;
+    border: solid 2px black;
+    margin-left: 5px;
+}
+
+.detailsDesc{
+    font-weight: 600;
+    font-size: 1.2em;
+    color: rgb(54, 54, 54);
+}
+
+.detailsPrice{
+    font-weight: 700;
+    font-size: 1.4em;
+    margin-top: -10px;
+}
+
+.orderButton{
+    margin:0;
+    width: 150px;
+    height: 50px;
+    margin-left:3px ;
+    background-color: #070707;
+    border: none;
+    border-radius:20px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.orderButton:hover{
+    border: solid 2px #070707;
+    background-color: whitesmoke;
+    color: #070707;
+}
+
+

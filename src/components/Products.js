@@ -4,8 +4,6 @@ import { Outlet } from 'react-router-dom';
 function Products() {
     return (
       <div>
-          Products page
-          <hr></hr>
           <Outlet />
       </div>
     );
